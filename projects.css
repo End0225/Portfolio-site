@@ -1,0 +1,47 @@
+/* ===MAIN=== */
+/* ==Projects== */
+p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.projects__item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.projects__item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.projects__describe-block {
+    margin-left: 20px;
+    width: 560px;
+}
+
+.projects__link {
+    position: relative;
+    left: 12px;
+    color: rgb(239, 154, 164);
+    font-weight: 400;
+}
+
+.projects__link::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 6px;
+    height: 6px;
+    background-color: #d7dbdf;
+    border-radius: 50%;
+    transform: translate(-12px, 14px);
+}
+
+.projects__title {
+    text-align: center;
+}
